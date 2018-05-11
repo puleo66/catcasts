@@ -20,6 +20,10 @@ import "foundation-sites"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
-import Turbolinks from "turbolinks"
+//import Turbolinks from "turbolinks"
 
-Turbolinks.start()
+//Turbolinks.start()
+
+windows.setTimeout(function() {
+	$(".flash-alert").slideUp()
+}, 3000);
